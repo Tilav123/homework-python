@@ -67,3 +67,6 @@ for paragraph in doc2.paragraphs:
     for run in paragraph.runs:
         run.bold = True
 doc2.save("new_word.docx")
+
+# Изменяю чтото 
+print("Изменение успешно!")
